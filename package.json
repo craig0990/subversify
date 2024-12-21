@@ -1,0 +1,40 @@
+{
+  "workspaces": [
+    "docs/samples/*",
+    "packages/*",
+    "examples/*",
+    "docs/"
+  ],
+  "scripts": {
+    "build:samples": "npm run ...",
+    "format": "prettier --write '**/src/**/*.ts'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@eslint/markdown": "^6.2.1",
+    "@subversify/core": "^1.0.0",
+    "@subversify/express-utils": "^1.0.0",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.2",
+    "@typescript-eslint/eslint-plugin": "^8.19.0",
+    "eslint": "^9.17.0",
+    "eslint-import-resolver-typescript": "^3.7.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-import-x": "^4.6.1",
+    "inversify": "^6.2.1",
+    "prettier": "^3.4.2",
+    "typescript": "^5.7.2",
+    "typescript-docs-verifier": "^2.5.0",
+    "typescript-eslint": "^8.19.0"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^7.2.1",
+    "@subversify/global": "^1.0.0",
+    "@subversify/typeorm": "^1.0.0",
+    "express": "^4.21.2",
+    "inversify-express-utils": "^6.4.10",
+    "sqlite3": "^5.1.7",
+    "typeorm": "^0.3.20"
+  }
+}

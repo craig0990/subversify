@@ -1,0 +1,26 @@
+{
+  "name": "@subversify/core",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "docs": "typedoc",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "peerDependencies": {
+    "inversify": "*"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "jest-mock-extended": "^4.0.0-beta1",
+    "ts-jest": "^29.2.5",
+    "typedoc": "^0.27.6",
+    "typedoc-plugin-coverage": "^3.4.0",
+    "typedoc-plugin-frontmatter": "^1.1.2",
+    "typedoc-plugin-markdown": "^4.3.3"
+  }
+}

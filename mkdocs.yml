@@ -1,0 +1,72 @@
+site_name: Subversify
+theme:
+  name: material
+  icon:
+    logo: fontawesome/solid/dice-four
+  features:
+    - content.code.annotate
+    - content.code.copy
+    - content.tooltips
+    - navigation.footer
+    - navigation.indexes
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/subversify
+    - icon: fontawesome/brands/npm
+      link: https://npmjs.com/@subversify
+extra_css:
+  - assets/extra.css
+  - https://fonts.googleapis.com/css2?family=Noto+Emoji:wght@300..700&display=swap
+plugins:
+  - awesome-pages
+  - callouts
+  - macros:
+      module_name: docs/macros
+      verbose: true
+  - search
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - footnotes
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:pymdownx.emoji.gemoji
+      emoji_generator: !!python/name:pymdownx.emoji.to_alt
+  - pymdownx.highlight:
+      anchor_linenums: true
+      linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.blocks.tab:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true

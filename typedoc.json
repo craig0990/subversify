@@ -1,0 +1,30 @@
+{
+  "$schema": "https://typedoc-plugin-markdown.org/schema.json",
+  "plugin": [
+    "typedoc-plugin-markdown",
+    "typedoc-plugin-coverage"
+  ],
+  "coverageLabel": "docs",
+  "excludeScopesInPaths": true,
+  "useHTMLEncodedBrackets": true,
+  "modulesFileName": "README",
+  "disableSources": true,
+  "useCodeBlocks": true,
+  "hideBreadcrumbs": true,
+  "hidePageHeader": true,
+  "excludeProtected": true,
+  "excludePrivate": true,
+  "expandObjects": true,
+  "expandParameters": true,
+  "indexFormat": "table",
+  "parametersFormat": "table",
+  "classPropertiesFormat": "list",
+  "enumMembersFormat": "table",
+  "propertyMembersFormat": "table",
+  "typeDeclarationFormat": "table",
+  "pageTitleTemplates": {
+    "index": "API Reference",
+    "member": "{name}",
+    "module": "{name}"
+  }
+}

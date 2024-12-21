@@ -1,0 +1,6 @@
+__pycache__
+coverage/
+dist/
+**/docs/API\ Reference
+node_modules/
+docs/samples/*/output.txt

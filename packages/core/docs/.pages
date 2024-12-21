@@ -1,0 +1,9 @@
+title: '@subversify/core'
+nav:
+  - README.md
+  - bindings.md
+  - modules.md
+  - app-factory.md
+  - hooks.md
+  - inspecting-modules.md
+  - ...

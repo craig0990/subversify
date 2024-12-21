@@ -1,0 +1,6 @@
+{
+    "extends": ["../../typedoc.json"],
+    "readme": "docs/.api.md",
+    "mergeReadme": true,
+    "out": "./docs/API Reference"
+}

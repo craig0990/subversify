@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "lib": ["esnext"],
+        "module": "nodenext",
+        "moduleResolution": "nodenext",
+        "strict": true,
+        "target": "esnext"
+    }
+}

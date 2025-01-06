@@ -10,7 +10,7 @@ designed to help enforce modular isolation and scoped bindings. It helps
 progressively streamline complex container bindings, making it easier to manage
 large numbers of dependencies without sacrificing Inversify's flexibility.
 
-[Read the Docs](https://craig0990.github.io/subversify/)<!--: { .md-button .md-button--primary } -->
+[Read the Docs](https://craig0990.github.io/subversify/subversify-core/)<!--: { .md-button .md-button--primary } -->
 
 <!--: </section> -->
 <!--: <section markdown> -->
